@@ -1,0 +1,35 @@
+.Userlist {
+  flex: 4;
+  height: 100%;
+}
+
+.userProfile {
+  display: flex;
+  //   justify-content: center;
+  align-items: center;
+}
+
+.profileImg {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-right: 0.7rem;
+}
+
+.Editbtn {
+  border: none !important;
+  padding: 0 !important;
+  width: 3rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.del {
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+}

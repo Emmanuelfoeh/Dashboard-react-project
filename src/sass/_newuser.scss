@@ -1,0 +1,24 @@
+.newuser {
+  flex: 4;
+  background-color: honeydew;
+}
+.formGroup {
+  flex-wrap: wrap;
+  column-gap: 1.5rem;
+  //   background-color: hotpink;
+}
+
+.newuserItem {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+
+  label,
+  h5 {
+    margin-top: 0.7rem;
+    margin-bottom: 0.4rem;
+  }
+}
+
+.form-input {
+}

@@ -1,0 +1,29 @@
+.side {
+  height: calc(100vh-3rem);
+  position: sticky;
+  top: 3rem;
+}
+
+.sidebarMenu {
+  margin-bottom: 1rem;
+}
+
+.sidebarlist {
+  padding-left: 0.8rem;
+}
+
+@media (max-width: 600px) {
+  .sidebarlist {
+    padding-left: 0;
+  }
+}
+
+.sidebarlist li {
+  display: flex;
+  align-items: center;
+  background-color: brown;
+}
+
+.sidebarMenu h3 {
+  font-size: 1rem;
+}
